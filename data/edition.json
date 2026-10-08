@@ -1,6 +1,12 @@
 {
   "date": "2026-10-08",
   "audio": null,
-  "podcast_script": "",
-  "articles": []
+  "podcast_script": "Willkommen bei Morgenbriefing, deinem persönlichen KI-Nachrichtenpodcast. Dies ist eine technische Testausgabe, keine aktuelle Nachrichtensendung. Wir prüfen heute, ob die deutsche Computerstimme zuverlässig eine Audio-Datei erzeugt und ob du diese auf deinem Android-Handy direkt abspielen kannst. In der späteren täglichen Ausgabe sprechen wir über neue Funktionen in ChatGPT, über Claude und Claude Code, und über wichtige Entwicklungen bei künstlicher Intelligenz. Dabei erklären wir nicht nur die Schlagzeilen. Wir ordnen ein, was tatsächlich neu ist, für wen eine Funktion verfügbar ist und wie du sie in der Praxis einsetzen kannst. Besonders wichtig sind uns hilfreiche Werkzeuge für das Programmieren, neue Modelle und Möglichkeiten zur Automatisierung. Damit die Nachrichten angenehm zu hören sind, verwenden wir zusammenhängende, klare Sätze anstelle kurzer Stichpunkte. Wenn du mich jetzt hören kannst, haben wir den ersten wichtigen technischen Schritt geschafft. Als Nächstes testen wir dann die tägliche Erstellung einer vollständigen Ausgabe. Bis dahin ist dieser Beitrag ausschließlich ein Audiotest. Vielen Dank fürs Zuhören.",
+  "articles": [
+    {
+      "category": "TECHNISCHER TEST",
+      "title": "Erste Audio-Probe – keine Nachrichten-Ausgabe",
+      "summary": "Diese erste Veröffentlichung prüft ausschließlich die automatische deutsche Sprachsynthese und den mobilen MP3-Player. Die täglichen KI-Nachrichten werden in einem späteren Schritt angebunden."
+    }
+  ]
 }
