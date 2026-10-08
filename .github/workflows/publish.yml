@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - index.html
+      - data/ard.json
       - data/edition.json
       - scripts/build_audio.py
       - .github/workflows/publish.yml
@@ -42,6 +43,7 @@ jobs:
         run: |
           cp index.html _site/
           cp data/edition.json _site/data/
+          cp data/ard.json _site/data/
           if [ -d audio ]; then cp -r audio/. _site/audio/; fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
