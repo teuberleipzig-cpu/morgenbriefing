@@ -3,8 +3,14 @@ on:
   schedule:
     - cron: '15 * * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_ard.py
+      - .github/workflows/update-ard.yml
 permissions:
   contents: write
+  actions: write
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -25,6 +31,7 @@ jobs:
             git add data/ard.json
             git commit -m "Update ARD Tagesschau embed"
             git push
+            GH_TOKEN="${{ github.token }}" gh workflow run publish.yml --ref main
           else
             echo "ARD embed already up to date."
           fi
